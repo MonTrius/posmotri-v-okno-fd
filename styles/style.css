@@ -37,6 +37,7 @@ html {
 }
 
 .content__list-container {
+  position: relative;
   display: flex;
   flex-direction: column;
   gap: 25px;
@@ -52,6 +53,7 @@ html {
 }
 
 .result__video-container {
+  position: relative;
   width: 711px;
   height: 386px;
   margin-bottom: 15px;
@@ -124,8 +126,6 @@ html {
 
 .content__video-card-description {
   display: -webkit-box;
-  display: -moz-box;
-  display: -ms-box;
   overflow: hidden;
   color: #fff;
   font-family:
@@ -299,14 +299,6 @@ html {
 .content__list-item {
   padding-right: 3px;
   padding-left: 3px;
-}
-
-.result__video-container {
-  position: relative;
-}
-
-.content__list-container {
-  position: relative;
 }
 
 h1,
